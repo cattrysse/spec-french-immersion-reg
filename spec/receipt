@@ -1,0 +1,41 @@
+The Partial French Immersion Registration Receipt
+  should thank me for applying
+  should include the given name value
+  should include the surname value
+  should include the dob value
+  should include the local school value
+  should include the present school value
+  should include the parents names value
+  should include the home address value
+  should include the city value
+  should include the province value
+  should include the postal code value
+  should include the home phone value
+  should include the email value
+  should exclude the email value if none entered
+  should include the business phone value
+  should exclude the business phone value if none entered
+  should include the phone extension value
+  should exclude the phone extension value if none entered
+  should include the response for local only boolean true if chosen
+  should include the response for local only boolean false if chosen
+  should include the local only second choice value
+  should include the local only third choice value
+  should include the response for transport boolean true if chosen
+  should include the response for transport boolean false if chosen
+  should include the response for other children now boolean false if chosen
+  should include the response for other children now boolean true if chosen
+  should include the other child 1 name value
+  should include the other child 1 school value
+  should include the other child 2 name value
+  should include the other child 2 school value
+  should include the other child 3 name value
+  should include the other child 3 school value
+  should include the response for registering siblings false if chosen
+  should include the response for registering siblings true if chosen
+  should include the siblings number value
+  should include the siblings grades value
+  should include the response for home schooled boolean true if chosen
+  should include the response for home schooled boolean false if chosen
+  should include the comments value
+

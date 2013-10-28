@@ -1,0 +1,131 @@
+Thank you for your submission. 
+
+[node:nid]	Content ID	The unique ID of the content item, or "node".
+[node:title]	Title	The title of the node.
+[node:url]	URL	The URL of the node.
+[node:created]	Date created	The date the node was posted.
+[node:author]	Author	The author of the node.
+[node:status]	Status	Whether the node is published or unpublished.
+
+[node:field-parent1-surname]	Surname	Field "field_parent1_surname".
+[node:field-parent1-given-name]	Given Name(s)	Field "field_parent1_given_name".
+[node:field-parent1-address]	Street Address	Field "field_parent1_address".
+[node:field-parent1-apartment]	Apartment Number	Field "field_parent1_apartment".
+[node:field-parent1-city]	City	Field "field_parent1_city".
+[node:field-parent1-postal]	Postal Code	Field "field_parent1_postal".
+[node:field-parent1-phone-primary]	Phone (Primary)	Field "field_parent1_phone_primary".
+[node:field-parent1-phone-alternate]	Phone (Alternate)	Field "field_parent1_phone_alternate".
+
+[node:field-parent2-surname]	Surname	Field "field_parent2_surname".
+[node:field-parent2-given-name]	Given Name(s)	Field "field_parent2_given_name".
+[node:field-parent2-address]	Street Address	Field "field_parent2_address".
+[node:field-parent2-apartment]	Apartment Number	Field "field_parent2_apartment".
+[node:field-parent2-city]	City	Field "field_parent2_city".
+[node:field-parent2-postal]	Postal Code	Field "field_parent2_postal".
+[node:field-parent2-phone-primary]	Phone (Primary)	Field "field_parent2_phone_primary".
+[node:field-parent2-phone-alternate]	Phone (Alternate)	Field "field_parent2_phone_alternate".
+
+[node:field-child1-surname]	Surname	Field "field_child1_surname".
+[node:field-child1-given-name]	Given Name(s)	Field "field_child1_given_name".
+[node:field-child1-dob]	Date of Birth	Field "field_child1_dob".
+[node:field-child1-current-school]	Current School	Field "field_child1_current_school".
+
+[node:field-child2-surname]	Surname	Field "field_child2_surname".
+[node:field-child2-given-name]	Given Name(s)	Field "field_child2_given_name".
+[node:field-child2-dob]	Date of Birth	Field "field_child2_dob".
+[node:field-child2-current-school]	Current School	Field "field_child2_current_school".
+
+[node:field-child3-surname]	Surname	Field "field_child3_surname".
+[node:field-child3-given-name]	Given Name(s)	Field "field_child3_given_name".
+[node:field-child3-dob]	Date of Birth	Field "field_child3_dob".
+[node:field-child3-current-school]	Current School	Field "field_child3_current_school".
+
+[node:field-child4-surname]	Surname	Field "field_child4_surname".
+[node:field-child4-given-name]	Given Name(s)	Field "field_child4_given_name".
+[node:field-child4-dob]	Date of Birth	Field "field_child4_dob".
+[node:field-child4-current-school]	Current School	Field "field_child4_current_school".
+
+[node:field-sibling1-surname]	Surname	Field "field_sibling1_surname".
+[node:field-sibling1-given-name]	Given Name(s)	Field "field_sibling1_given_name".
+[node:field-sibling1-grade]	Grade	Field "field_sibling1_grade".
+[node:field-sibling1-school]	School	Field "field_sibling1_school".
+
+[node:field-sibling2-surname]	Surname	Field "field_sibling2_surname".
+[node:field-sibling2-given-name]	Given Name(s)	Field "field_sibling2_given_name".
+[node:field-sibling2-grade]	Grade	Field "field_sibling2_grade".
+[node:field-sibling2-school]	School	Field "field_sibling2_school".
+
+[node:field-sibling3-surname]	Surname	Field "field_sibling3_surname".
+[node:field-sibling3-given-name]	Given Name(s)	Field "field_sibling3_given_name".
+[node:field-sibling3-grade]	Grade	Field "field_sibling3_grade".
+[node:field-sibling3-school]	School	Field "field_sibling3_school".
+
+[node:field-verified]	I have reviewed and have confirmed that the information entered is complete and accurate.	Field "field_verified".
+[node:field-disclaimed]	I have read and understand the information above.	Field "field_disclaimed".
+
+[node:field-school-first-choice]	First Choice (Home School)	Field "field_school_first_choice".
+[node:field-school-second-choice]	Second Choice (Optional)	Field "field_school_second_choice".
+[node:field-school-third-choice]	Third Choice (Optional)	Field "field_school_third_choice".
+
+[node:field_parent1_surname]	Surname	Text field.
+[node:field_parent1_given_name]	Given Name(s)	Text field.
+[node:field_parent1_address]	Street Address	Text field.
+[node:field_parent1_apartment]	Apartment Number	Text field.
+[node:field_parent1_city]	City	Text field.
+[node:field_parent1_postal]	Postal Code	Text field.
+[node:field_parent1_phone_primary]	Phone (Primary)	Text field.
+[node:field_parent1_phone_alternate]	Phone (Alternate)	Text field.
+[node:field_parent2_surname]	Surname	Text field.
+[node:field_parent2_given_name]	Given Name(s)	Text field.
+[node:field_parent2_address]	Street Address	Text field.
+[node:field_parent2_apartment]	Apartment Number	Text field.
+[node:field_parent2_city]	City	Text field.
+[node:field_parent2_postal]	Postal Code	Text field.
+[node:field_parent2_phone_primary]	Phone (Primary)	Text field.
+[node:field_parent2_phone_alternate]	Phone (Alternate)	Text field.
+[node:field_child1_surname]	Surname	Text field.
+[node:field_child1_given_name]	Given Name(s)	Text field.
+[node:field_child1_dob]	Date of Birth	Date field.
+[node:field_child1_current_school]	Current School	List (text) field.
+[node:field_child2_surname]	Surname	Text field.
+[node:field_child2_given_name]	Given Name(s)	Text field.
+[node:field_child2_dob]	Date of Birth	Date field.
+[node:field_child2_current_school]	Current School	List (text) field.
+[node:field_child3_surname]	Surname	Text field.
+[node:field_child3_given_name]	Given Name(s)	Text field.
+[node:field_child3_dob]	Date of Birth	Date field.
+[node:field_child3_current_school]	Current School	List (text) field.
+[node:field_child4_surname]	Surname	Text field.
+[node:field_child4_given_name]	Given Name(s)	Text field.
+[node:field_child4_dob]	Date of Birth	Date field.
+[node:field_child4_current_school]	Current School	List (text) field.
+
+[node:field_sibling1_surname]	Surname	Text field.
+[node:field_sibling1_given_name]	Given Name(s)	Text field.
+[node:field_sibling1_grade]	Grade	List (text) field.
+[node:field_sibling1_school]	School	List (text) field.
+
+[node:field_sibling2_surname]	Surname	Text field.
+[node:field_sibling2_given_name]	Given Name(s)	Text field.
+[node:field_sibling2_grade]	Grade	List (text) field.
+[node:field_sibling2_school]	School	List (text) field.
+
+[node:field_sibling3_surname]	Surname	Text field.
+[node:field_sibling3_given_name]	Given Name(s)	Text field.
+[node:field_sibling3_grade]	Grade	List (text) field.
+[node:field_sibling3_school]	School	List (text) field.
+
+[node:field_school_intro]	School Introduction	Static field.
+[node:field_sibling_intro]	Sibling Introduction	Static field.
+[node:field_student_intro]	Student Introduction	Static field.
+[node:field_parent_intro]	Parent Introduction	Static field.
+[node:field_receipt]	Thank You!	Static field.
+[node:field_review_text]	Review Text	Static field.
+[node:field_disclaimer_text]	Disclaimer Text	Static field.
+[node:field_verified]	I have reviewed and have confirmed that the information entered is complete and accurate.	Boolean field.
+[node:field_disclaimed]	I have read and understand the information above.	Boolean field.
+
+[node:field_school_first_choice]	First Choice (Home School)	List (text) field.
+[node:field_school_second_choice]	Second Choice (Optional)	List (text) field.
+[node:field_school_third_choice]	Third Choice (Optional)	List (text) field.
+
