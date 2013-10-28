@@ -1,0 +1,7 @@
+Feature: Terms and conditions
+  In order to reduce confusion and keep the registration process transparent
+  As a parent
+  I should be required to acknowledge the terms and conditions before I submit my registration form
+
+  Review and sign-off of acknowledgement that registration does not guarantee acceptance into the program
+

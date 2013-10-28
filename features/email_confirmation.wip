@@ -1,0 +1,8 @@
+Feature: Email confirmation process
+  In order to ensure my email address is mine and correct
+  As a parent
+  I should have to confirm my new account using an email sent to my email address
+
+  Email validation process for parents before they can register a child- password sent to registered email account
+  Confirmation instructions are sent to the user email after creating a record and when manually requested by a new confirmation instruction request.
+

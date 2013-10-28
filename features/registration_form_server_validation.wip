@@ -1,0 +1,7 @@
+Feature: Registration form server-side validation
+  In order to ensure my form data is valid when I submit it
+  As a user
+  I should receive an error message for each invalid data field when I submit the form
+
+  with data validation checks built in for each field
+

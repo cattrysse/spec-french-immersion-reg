@@ -1,0 +1,5 @@
+Feature: Delete Registration Form submission(s)
+  In order to withdraw from the registration process before the registration deadline
+  As a parent
+  I should be able to delete my submitted form(s)
+

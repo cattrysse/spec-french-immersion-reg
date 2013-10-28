@@ -1,0 +1,5 @@
+Feature: "Remember me"
+  In order to access protected sections of the site repeatedly without having to sign in each time
+  As a user
+  I should be able to ask the site to remember my credentials
+

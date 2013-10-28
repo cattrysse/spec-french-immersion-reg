@@ -1,0 +1,7 @@
+Feature: Registration receipt emailed to WaterWorks
+  In order to keep copies of all the receipts emailed to all the parents
+  As a system administrator
+  I should receive a copy of receipt emails in a WaterWorks conference
+
+  Once data submitted, sent to database, database to waterworks conference and parent as email confirmation of registration
+

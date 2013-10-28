@@ -1,0 +1,162 @@
+Welcome Page
+=========================
+User goes to Registration Site
+User sees introduction
+User sees Steps
+User creates account
+User logs in
+
+Account Creation
+=========================
+Parent fills in Account Registration Form
+email
+email confirmation
+password
+password confirmation
+
+WRDSB assigns password
+email and encrypted password saved
+password emailed to user
+
+link back to Welcome Page
+
+Login
+=========================
+User sees introduction
+
+Parent logs into Registraion System
+email
+password
+click Log In
+
+Email and password verified
+
+Login failed: returned to login page
+
+Login successful: sees registration steps page
+1. Parent/Guardian Information
+2. Student Information
+3. School Information
+4. Verify Information and Submit
+
+Registration Steps Page
+=========================
+Link to Parent Information
+Link to Student Information
+Link to School Information
+Link to Verify and Submit
+
+Parent Guardian Information Form
+=========================
+"To be completed by the parent/guardian."
+Parent/Guardian 1:
+Surname
+Given Name(s)
+Email
+Street Address
+Apartment Number
+City
+Postal Code
+Phone (Primary)
+Phone (Alternate)
+Parent/Guardian 2:
+Surname
+Given Name(s)
+Email
+Stree Address
+Apartment Number
+City
+Postal Code
+Phone (Primary)
+Phone (Alternate)
+Submit button
+
+Validation of form data
+failure: returned to form to correct errors
+success: parent information updated in database (using email as key record, add parent information)
+  returned to Registration Steps
+
+Student Information Form
+=========================
+"To be completed by the parent/guardian for the child, or children, that you wish to register for Grade 1 Partial French Immersion for the 2013-14 school year."
+Child 1:
+Surname
+Given Name(s)
+Date of Birth (MM/DD/YYYY)
+Current School 
+  (Drop down will include Home Schooled as option)
+Street Address
+Apartment Number
+City
+Postal Code
+
+Child 2, 3, 4
+
+"To be completed by the parent/guardian for any siblings that are currently enrolled in a Partial French Immersion Program."
+"Please indicate if you presently have children enrolled in Partial French Immersion (Grade 1-8)"
+Checkbox: Yes/No
+
+No - nuthin'
+
+Yes-
+  Child 1:
+    Surname
+    Given Name(s)
+    Grade
+    School (Drop down of all schools)
+Child 2, 3
+
+Submit button
+
+Validation of form data
+failure: returned to form to correct errors
+success: information updated in database (using email as key record, add information)
+  returned to Registration Steps
+
+School Information Form
+=========================
+"The Waterloo Region District School Board cannot guarantee that all parents who register their child for Grade 1 Partial French Immersion will
+be offered a space at the school in their residential boundary (closest school). Please indicate whether you would be interested in being placed
+at another school."
+"Note: The Waterloo Region District School Board does not provide transportation to students who attend a school outside their residential
+boundary. Thus, if your child is placed at a school outside your residential boundary (closest school), transportation to and from the school 
+will be the responsibility of the parent/guardian."
+
+Radio button "A) I want my child to be considered for inclusion in the Partial French Immersion program only if it is offered at the school 
+within my residential boundary."
+Radio button "B) I want my child to be considered for inclusion in the Partial French Immersion program at the school within my residential
+boundary as my First Choice. If the program is not offered, or is full, I want my child considered for a second and/or third choice
+at a school where the program is offered."
+
+Option A: Submit and returned to Registration Steps
+Option B:
+  Select Choice:
+    Second Choice - dropdown of Partial FI Schools
+    Third Choice - dropdown of Partial FI Schools
+
+Validation of form data
+failure: returned to form to correct errors
+success: information updated in database (using email as key record, add information)
+  returned to Registration Steps
+
+Verify Information and Submit
+=========================
+"Please review the information you have entered to ensure it is complete and accurate. The Waterloo Region District School Board
+takes no responsibilty for information that has been entered incorrectly and will implement its placement process based exclusively
+on the information received through this registration."
+
+User sees all information.
+If section(s) missing, links to missing section(s)
+
+Checkbox: "I hvae reviewed and have confirmed that the information entered is complete and accurate."
+
+Checkbox: "Please check this box to indicate you have read and understand the information above, and to acknowledge that submission
+of this registration does not mean that your child has been accepted into, or place, in a Partial French Immersion Program."
+
+Submit, iff checkboxes checked. Otherwise, disabled.
+
+Submit Registration and provide registration number
+
+confirmation emailed to user
+confirmation emailed to WW conference
+

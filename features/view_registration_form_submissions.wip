@@ -1,0 +1,5 @@
+Feature: View Registration Form submission(s)
+  In order to review my form submission(s) and retrieve my receipt number(s)
+  As a parent
+  I should be able to view my submitted form(s)
+

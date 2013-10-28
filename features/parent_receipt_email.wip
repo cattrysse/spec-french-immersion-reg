@@ -1,0 +1,8 @@
+Feature: Registration receipt emailed to parent
+  In order to keep a record of my registration form submission
+  As a parent
+  I should receive a registration receipt via email
+
+  Once data submitted, sent to database, database to waterworks conference and parent as email confirmation of registration
+  Email confirmation to include date and time stamp, receipt number- PDF Form Letter?
+

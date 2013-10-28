@@ -1,0 +1,55 @@
+Feature: Parent signs up
+  In order to get access to protected sections of the site
+  As a parent
+  I want to be able to sign up
+
+  All of the scenarios below follow this sign-up procedure:
+    Parent goes to site
+    Parent fills in Account Registration Form
+    Parent submits form
+    Parent receives email with account information
+    Parent logs into account using information from email
+
+  Background:
+    Given I am not signed in
+
+  Scenario: Parent signs up with valid data
+    When I sign up with valid user data
+    Then I should see a successful sign up message
+    
+  Scenario: Parent signs up without email
+    When I sign up without an email address
+    Then I should see a missing email message
+
+  Scenario: Parent signs up with invalid email
+    When I sign up with an invalid email
+    Then I should see an invalid email message
+
+  Scenario: Parent signs up without email confirmation
+    When I sign up without an email confirmation
+    Then I should see a missing email confirmation message
+
+  Scenario: Parent signs up with invalid email confirmation
+    When I sign up with an invalid email confirmation
+    Then I should see an invalid email confirmation message
+
+  Scenario: Parent signs up with mismatched email and confirmation
+    When I sign up with a mismatched email confirmation
+    Then I should see a mismatched email message
+
+  Scenario: Parent signs up without password
+    When I sign up without a password
+    Then I should see a missing password message
+
+  Scenario: Parent signs up without password confirmation
+    When I sign up without a password confirmation
+    Then I should see a missing password confirmation message
+
+  Scenario: Parent signs up with mismatched password and confirmation
+    When I sign up with a mismatched password confirmation
+    Then I should see a mismatched password message
+
+  Scenario: Parent signs up with non-unique email
+    When I sign up with a non-unique email
+    Then I should see an account already exists message
+

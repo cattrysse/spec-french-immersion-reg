@@ -1,0 +1,5 @@
+Feature: Registration submission security
+  In order to protect secrets
+  As a parent
+  I should be able to view, edit, and delete only my own registration form submission(s)
+

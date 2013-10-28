@@ -1,0 +1,5 @@
+Feature: Edit Registration Form submission(s)
+  In order to correct mistakes before the registration deadline without staff intervention
+  As a parent
+  I should be able to edit my form submission(s) before the registration deadline
+

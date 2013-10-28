@@ -1,0 +1,8 @@
+Feature: Registration form client-side validation
+  In order to ensure my form data is valid before I submit it
+  As a user
+  I should be unable to submit invalid data and receive an error message for each invalid data field before submitting the form
+
+  with data validation checks built in for each field
+  Data verification prior to submitting
+

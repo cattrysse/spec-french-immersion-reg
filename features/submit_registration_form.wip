@@ -1,0 +1,9 @@
+Feature: Submit Registration Form
+  In order to register my child(ren) for Partial French Immersion
+  As a parent
+  I should be able to submit (a) registration form(s)
+
+  Parent fills in Partial French Immersion Registration Form
+  Parent submits form
+  Parent sees Receipt page
+
