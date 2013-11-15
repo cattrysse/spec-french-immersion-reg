@@ -9,7 +9,7 @@ Capybara.current_driver = :selenium
 Capybara.run_server = false
 
 # Set the base URL for all our tests
-Capybara.app_host = 'https://secure.wrdsb.ca'
+Capybara.app_host = 'http://camshaft.wrdsb.ca'
 
 #Capybara.default_wait_time = 10
 

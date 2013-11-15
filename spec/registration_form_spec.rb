@@ -16,11 +16,20 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     page.should have_content('Partial French Immersion Registration has been created.')
   end
 
+  it 'should have a Surname field for Parent 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should require a Surname for Parent 1' do
     fill_in_form
     fill_in(@parent1_surname, :with => '')
     click_on('Save')
     page.should have_content('Surname field is required.')
+  end
+
+  it 'should have a Given Name field for Parent 1' do
+    pending
+    # @parent1_given_name
   end
   it 'should require a Given Name for Parent 1' do
     fill_in_form
@@ -28,11 +37,10 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Given Name(s) field is required.')
   end
-  it 'should require a Primary Phone for Parent 1' do
-    fill_in_form
-    fill_in(@parent1_phone_primary, :with => '')
-    click_on('Save')
-    page.should have_content('Phone (Primary) field is required.')
+
+  it 'should have a Street Address field for Parent 1' do
+    pending
+    # @parent1_surname
   end
   it 'should require a Street Address for Parent 1' do
     fill_in_form
@@ -40,23 +48,10 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Street Address field is required.')
   end
-  it 'should require a City for Parent 1' do
-    fill_in_form
-    fill_in(@parent1_city, :with => '')
-    click_on('Save')
-    page.should have_content('City field is required.')
-  end
-  it 'should require a Postal Code for Parent 1' do
-    fill_in_form
-    fill_in(@parent1_postal, :with => '')
-    click_on('Save')
-    page.should have_content('Postal Code field is required.')
-  end
-  it 'should not require an Alternate Phone for Parent 1' do
-    fill_in_form
-    fill_in(@parent1_phone_alternate, :with => '')
-    click_on('Save')
-    page.should have_content('Partial French Immersion Registration has been created.')
+
+  it 'should have an Apartment Number field for Parent 1' do
+    pending
+    # @parent1_surname
   end
   it 'should not require an Apartment Number for Parent 1' do
     fill_in_form
@@ -65,11 +60,65 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     page.should have_content('Partial French Immersion Registration has been created.')
   end
 
+  it 'should have a City field for Parent 1' do
+    pending
+    # @parent1_surname
+  end
+  it 'should require a City for Parent 1' do
+    fill_in_form
+    fill_in(@parent1_city, :with => '')
+    click_on('Save')
+    page.should have_content('City field is required.')
+  end
+
+  it 'should have a Postal Code field for Parent 1' do
+    pending
+    # @parent1_surname
+  end
+  it 'should require a Postal Code for Parent 1' do
+    fill_in_form
+    fill_in(@parent1_postal, :with => '')
+    click_on('Save')
+    page.should have_content('Postal Code field is required.')
+  end
+
+  it 'should have a Primary Phone field for Parent 1' do
+    pending
+    # @parent1_surname
+  end
+  it 'should require a Primary Phone for Parent 1' do
+    fill_in_form
+    fill_in(@parent1_phone_primary, :with => '')
+    click_on('Save')
+    page.should have_content('Phone (Primary) field is required.')
+  end
+
+  it 'should have an Alternate Phone field for Parent 1' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require an Alternate Phone for Parent 1' do
+    fill_in_form
+    fill_in(@parent1_phone_alternate, :with => '')
+    click_on('Save')
+    page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+
+  it 'should have a Surname field for Parent 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Parent 2' do
     fill_in_form
     fill_in(@parent2_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Given Name field for Parent 2' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Given Name for Parent 2' do
     fill_in_form
@@ -77,54 +126,99 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
-  it 'should not require a Primary Phone for Parent 1' do
-    fill_in_form
-    fill_in(@parent2_phone_primary, :with => '')
-    click_on('Save')
-    page.should have_content('Partial French Immersion Registration has been created.')
+
+  it 'should have a Street Address field for Parent 2' do
+    pending
+    # @parent1_surname
   end
-  it 'should not require a Street Address for Parent 1' do
+  it 'should not require a Street Address for Parent 2' do
     fill_in_form
     fill_in(@parent2_address, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
-  it 'should not require a City for Parent 1' do
-    fill_in_form
-    fill_in(@parent2_city, :with => '')
-    click_on('Save')
-    page.should have_content('Partial French Immersion Registration has been created.')
+
+  it 'should have an Apartment Number field for Parent 2' do
+    pending
+    # @parent1_surname
   end
-  it 'should not require a Postal Code for Parent 1' do
-    fill_in_form
-    fill_in(@parent2_postal, :with => '')
-    click_on('Save')
-    page.should have_content('Partial French Immersion Registration has been created.')
-  end
-  it 'should not require an Alternate Phone for Parent 1' do
-    fill_in_form
-    fill_in(@parent2_phone_alternate, :with => '')
-    click_on('Save')
-    page.should have_content('Partial French Immersion Registration has been created.')
-  end
-  it 'should not require an Apartment Number for Parent 1' do
+  it 'should not require an Apartment Number for Parent 2' do
     fill_in_form
     fill_in(@parent2_apartment, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
 
+  it 'should have a City field for Parent 2' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require a City for Parent 2' do
+    fill_in_form
+    fill_in(@parent2_city, :with => '')
+    click_on('Save')
+    page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Postal Code field for Parent 2' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require a Postal Code for Parent 2' do
+    fill_in_form
+    fill_in(@parent2_postal, :with => '')
+    click_on('Save')
+    page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Primary Phone field for Parent 2' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require a Primary Phone for Parent 2' do
+    fill_in_form
+    fill_in(@parent2_phone_primary, :with => '')
+    click_on('Save')
+    page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have an Alternate Phone field for Parent 2' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require an Alternate Phone for Parent 2' do
+    fill_in_form
+    fill_in(@parent2_phone_alternate, :with => '')
+    click_on('Save')
+    page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+
+  it 'should have a Surname field for Child 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should require a Surname for Child 1' do
     fill_in_form
     fill_in(@child1_surname, :with => '')
     click_on('Save')
     page.should have_content('Surname field is required.')
   end
+
+  it 'should have a Given Name field for Child 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should require a Given Name for Child 1' do
     fill_in_form
     fill_in(@child1_given_name, :with => '')
     click_on('Save')
     page.should have_content('Given Name(s) field is required.')
+  end
+
+  it 'should have a Date of Birth field for Child 1' do
+    pending
+    # @parent1_surname
   end
   it 'should require a Date of Birth for Child 1' do
     fill_in_form
@@ -134,6 +228,11 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('A valid date is required for Date of Birth.')
   end
+
+  it 'should have a Current School field for Child 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should require a Current School for Child 1' do
     fill_in_form
     fill_in(@child1_current_school, :with => '')
@@ -141,17 +240,31 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     page.should have_content('Current School field is required.')
   end
 
+  it 'should have a Surname field for Child 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Child 2' do
     fill_in_form
     fill_in(@child2_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Given Name field for Child 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Given Name for Child 2' do
     fill_in_form
     fill_in(@child2_given_name, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Date of Birth field for Child 2' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Date of Birth for Child 2' do
     pending
@@ -161,6 +274,11 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     fill_in(@child2_dob_day, :with => '')
     click_on('Save')
   end
+
+  it 'should have a Current School field for Child 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Current School for Child 2' do
     pending
     fill_in_form
@@ -168,17 +286,31 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Surname field for Child 3' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Child 3' do
     fill_in_form
     fill_in(@child3_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Given Name field for Child 3' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Given Name for Child 3' do
     fill_in_form
     fill_in(@child3_given_name, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Date of Birth field for Child 3' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Date of Birth for Child 3' do
     pending
@@ -188,6 +320,11 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     fill_in(@child3_dob_day, :with => '')
     click_on('Save')
   end
+
+  it 'should have a Current School field for Child 3' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Current School for Child 3' do
     pending
     fill_in_form
@@ -195,17 +332,31 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Surname field for Child 4' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Child 4' do
     fill_in_form
     fill_in(@child4_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Given Name field for Child 4' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Given Name for Child 4' do
     fill_in_form
     fill_in(@child4_given_name, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Date of Birth field for Child 4' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Date of Birth for Child 4' do
     pending
@@ -215,6 +366,11 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     fill_in(@child4_dob_day, :with => '')
     click_on('Save')
   end
+
+  it 'should have a Current School field for Child 4' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Current School for Child 4' do
     pending
     fill_in_form
@@ -222,11 +378,20 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Surname field for Sibling 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Sibling 1' do
     fill_in_form
     fill_in(@sibling1_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Given Name field for Sibling 1' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Given Name for Sibling 1' do
     fill_in_form
@@ -234,11 +399,21 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Grade field for Sibling 1' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Grade for Sibling 1' do
     pending
     fill_in_form
     fill_in(@sibling1_grade, :with => '')
     click_on('Save')
+  end
+
+  it 'should have a School field for Sibling 1' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a School for Sibling 1' do
     pending
@@ -247,11 +422,20 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Surname field for Sibling 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Sibling 2' do
     fill_in_form
     fill_in(@sibling2_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Given Name field for Sibling 2' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Given Name for Sibling 2' do
     fill_in_form
@@ -259,11 +443,21 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Grade field for Sibling 2' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Grade for Sibling 2' do
     pending
     fill_in_form
     fill_in(@sibling2_grade, :with => '')
     click_on('Save')
+  end
+
+  it 'should have a School field for Sibling 2' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a School for Sibling 2' do
     pending
@@ -272,11 +466,20 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Surname field for Sibling 3' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Surname for Sibling 3' do
     fill_in_form
     fill_in(@sibling3_surname, :with => '')
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
+  end
+
+  it 'should have a Given Name field for Sibling 3' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Given Name for Sibling 3' do
     fill_in_form
@@ -284,11 +487,21 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
     page.should have_content('Partial French Immersion Registration has been created.')
   end
+
+  it 'should have a Grade field for Sibling 3' do
+    pending
+    # @parent1_surname
+  end
   it 'should not require a Grade for Sibling 3' do
     pending
     fill_in_form
     fill_in(@sibling3_grade, :with => '')
     click_on('Save')
+  end
+
+  it 'should have a School field for Sibling 3' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a School for Sibling 3' do
     pending
@@ -297,17 +510,31 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
-  it 'should require a First Choice (Home School) school selection' do
+  it 'should have a First Choice field for School Information' do
+    pending
+    # @parent1_surname
+  end
+  it 'should require a First Choice school selection' do
     fill_in_form
     fill_in(@school_first_choice, :with => '')
     click_on('Save')
-    page.should have_content('First Choice (Home School) field is required.')
+    page.should have_content('First Choice field is required.')
+  end
+
+  it 'should have a Second Choice field for School Information' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Second Choice school selection' do
     pending
     fill_in_form
     fill_in(@school_second_choice, :with => '')
     click_on('Save')
+  end
+
+  it 'should have a Third Choice field for School Information' do
+    pending
+    # @parent1_surname
   end
   it 'should not require a Third Choice school selection' do
     pending
@@ -316,11 +543,32 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     click_on('Save')
   end
 
+  it 'should have a Comments field' do
+    pending
+    # @parent1_surname
+  end
+  it 'should not require the user fill in the Comments field' do
+    pending
+    #fill_in_form
+    #uncheck(@varified)
+    #click_on('Save')
+    #page.should have_content('I have reviewed and have confirmed that the information entered is complete and accurate. field is required.')
+  end
+
+  it 'should have a Verify Information checkbox' do
+    pending
+    # @parent1_surname
+  end
   it 'should require the user check the Verify Information checkbox' do
     fill_in_form
     uncheck(@varified)
     click_on('Save')
     page.should have_content('I have reviewed and have confirmed that the information entered is complete and accurate. field is required.')
+  end
+
+  it 'should have a Disclaimer checkbox' do
+    pending
+    # @parent1_surname
   end
   it 'should require the user check the Disclaimer checkbox' do
     fill_in_form
@@ -333,4 +581,3 @@ describe "The Partial French Immersion Registration Form", :type => :request do
     pending
   end
 end
-
